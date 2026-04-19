@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# Env vars
+.env
+
+# OS
+.DS_Store
+
+# ChromaDB
+chroma/
+
+
+# Uploads
+uploads/

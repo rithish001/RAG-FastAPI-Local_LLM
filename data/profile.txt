@@ -1,0 +1,11 @@
+My name is Rithish.
+I'm currently learning about Generative AI, and FastAPI.
+
+My career goal is to become a AI engineer, SDE-backend engineer.
+I'm especially interested in automation, AI, machine learning.
+
+I have experience with e.g., Python, JavaScript, HTML, CSS, React, FastAPI, Docker.
+I'm currently building projects on NextWork to grow my hands-on skills.
+
+For fun, I enjoy e.g., hiking, playing guitar, reading sci-fi novels.
+A fun fact about me is e.g., I once ran a marathon, I can solve a Rubik's cube in under a minute.
