@@ -6,10 +6,15 @@ LLM.
 
 ------------------------------------------------------------------------
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00.svg?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-000000.svg?style=for-the-badge)
+
 ## 🚀 Features
 
 -   📂 Upload TXT and PDF files
--   ✂️ Automatic text chunking
+-   ✂️ Text chunking
 -   🔎 Semantic search using vector embeddings
 -   🧠 Context-aware answers using local LLM (Ollama)
 -   👤 User-specific document filtering
@@ -29,11 +34,14 @@ LLM.
 
 ## 🏗️ Tech Stack
 
--   FastAPI\
--   ChromaDB\
--   Ollama (qwen2.5:0.5b)\
--   mxbai-embed-large\
--   PyPDF
+| Layer           | Technology                  |
+|----------------|-----------------------------|
+| Framework       | FastAPI                     |
+| Vector DB       | ChromaDB (Persistent)       |
+| Embeddings      | nomic-embed-text (Ollama)   |
+| LLM             | Qwen2.5 0.5B / Any Ollama model |
+| Document Parser | PyPDF                       |
+| Validation      | Pydantic v2                 |
 
 ------------------------------------------------------------------------
 
@@ -51,13 +59,14 @@ LLM.
 
 ## ⚙️ Setup
 
-    git clone <your-repo>
-    cd <your-repo>
+    git clone https://github.com/rithish001/RAG-FastAPI-Local_LLM.git
+    cd RAG-FastAPI-Local_LLM
     python -m venv venv
     venv\Scripts\activate
     pip install -r requirements.txt
     ollama run qwen2.5:0.5b
     uv run uvicorn app.main:app --reload
+    API will be live at: http://localhost:8000
 
 ------------------------------------------------------------------------
 
