@@ -3,7 +3,7 @@ from app.utils.chunking import chunk_text
 import uuid
 
 # Load file
-with open("data/profile.txt", "r", encoding="utf-8") as f:
+with open("data/coverletter.txt", "r", encoding="utf-8") as f:
     text = f.read()
 
 # Chunk text
@@ -20,8 +20,8 @@ collection.add(
     documents=chunks,
     metadatas=[
         {
-            "source": "profile.txt",
-            "user_name": "default_user",
+            "source": "coverletter.txt",
+            "user_name": "Rithish",
             "chunk_index": i,
         }
         for i in range(len(chunks))

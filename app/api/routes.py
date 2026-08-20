@@ -97,5 +97,5 @@ def upload_file(user_name: str, file: UploadFile = File(...)):
 
 
 @router.get("/ask")
-def ask(question: str, user: str = None):
-    return ask_question(question, user)
+async def ask(question: str, user: str = None):
+    return await ask_question(question, user)

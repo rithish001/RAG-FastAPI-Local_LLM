@@ -1,0 +1,24 @@
+id,question,expected,generated,answer_relevancy,faithfulness,answer_pass,faithfulness_pass
+1,Which company is the cover letter addressed to?,Sarvam AI,Sarvam AI,0.5,0.5,FALSE,FALSE
+2,Which university did the applicant graduate from?,NIT Bhopal,NIT Bhopal,0.5,0.5,FALSE,FALSE
+3,What is the applicant's current employer?,HCLTech,The applicant is currently employed by Sarvam AI.,0.5,0.5,FALSE,FALSE
+4,Which client does the applicant work for?,Meta,The applicant works for **Sarvam AI**.,0.5,0.5,FALSE,FALSE
+5,How many years of experience are mentioned?,1.5 years,1.5 years,0.5,0.5,FALSE,FALSE
+6,Which backend framework is mentioned?,FastAPI,"FastAPI, ChromaDB, Ollama",0.5,0.5,FALSE,FALSE
+7,Which vector database is mentioned?,ChromaDB,"FastAPI, ChromaDB, Ollama",0.5,0.5,FALSE,FALSE
+8,Which local LLM is mentioned?,Ollama,"LLM Integration: I have built a local Retrieval-Augmented Generation (RAG) REST API using FastAPI, ChromaDB, and Ollama. This project demonstrated my ability to handle document ingestion pipelines, metadata-based filtering, and reliable request handling using Pydantic v2.",0.5,0.5,FALSE,FALSE
+9,Which authentication method is mentioned?,JWT authentication,FastAPI,0.5,0.5,FALSE,FALSE
+10,What AI project is highlighted?,A local Retrieval-Augmented Generation (RAG) REST API.,"The AI project that is highlighted in the context is the local Retrieval-Augmented Generation (RAG) REST API using FastAPI, ChromaDB, and Ollama.",0.5,0.5,FALSE,FALSE
+11,Why is the applicant a good fit for Sarvam AI?,"Because of experience in AI workflows, RAG, FastAPI, and production-ready backend development.","The applicant is a strong fit for Sarvam AI because they have experience building real-time AI workflows and an academic background from NIT Bhopal. Additionally, they have developed production-grade async REST APIs using FastAPI, Async SQLAlchemy, and JWT authentication, which suggests they possess technical expertise that aligns well with the team's requirements.",0.67,0.5,TRUE,FALSE
+12,What technologies were used in the RAG project?,"FastAPI, ChromaDB, Ollama and Pydantic v2.","FastAPI, ChromaDB, Ollama.",0.5,0.67,FALSE,TRUE
+13,What production-ready backend features are mentioned?,"Async REST APIs, Async SQLAlchemy, JWT authentication and CDN integration.","production-grade async REST APIs using FastAPI, Async SQLAlchemy, and JWT authentication.",0.5,0.5,FALSE,FALSE
+14,How many coding problems has the applicant solved?,600+,The applicant has solved 600+ problems on coding platforms like LeetCode and CodeChef.,0.67,0.5,TRUE,FALSE
+15,What programming language is emphasized?,Python,FastAPI,0.5,0.5,FALSE,FALSE
+16,What is the applicant's CGPA?,The document does not provide this information.,"The applicant's CGPA is not explicitly stated in the given context. It is provided as ""600+ problems on coding platforms like LeetCode and CodeChef"" without providing specific numerical values.",0.5,0.5,FALSE,FALSE
+17,Which cloud platform is primarily used?,The document does not provide this information.,"The context states that the candidate has experience building production-grade async REST APIs using FastAPI, Async SQLAlchemy, and JWT authentication. FastAPI, Async SQLAlchemy, and JWT are all platforms from the Python standard library.
+Answer: Python",0.5,0.5,FALSE,FALSE
+18,Does the document mention Kubernetes?,No.,"No, the given text does not mention any specific use case for or experience with Kubernetes. The context discusses various aspects of backend engineering at Sarvam AI including real-time AI workflows and efficient API development. However, it does not explicitly state whether the author has worked extensively with Kubernetes or if they have encountered it in their work.",0.5,0.5,FALSE,FALSE
+19,Does the document mention Redis?,No.,"Yes, according to the provided context, the document mentions ""Redis"" as follows:
+
+• My technical foundation is well-aligned with your requirements: • AI/LLM Integration: I have built a local Retrieval-Augmented Generation (RAG) REST API using FastAPI, ChromaDB, and Ollama. This project demonstrated my ability to handle document ingestion pipelines, metadata-based filtering, and reliable request handling using Pydantic v2.",0.5,0.5,FALSE,FALSE
+20,Summarize the applicant's technical strengths.,"AI/LLM integration, FastAPI, RAG, Async APIs, JWT, production-ready backend engineering.","Rithish Reddy Perkampally has strong technical skills in both AI and backend engineering. He is proficient with FastAPI, ChromaDB, Ollama for indexing documents, Pydantic v2 for handling data, and FastAPI for building async REST APIs. Additionally, he specializes in real-time AI workflows and has built production-grade API solutions using FastAPI, Async SQLAlchemy, and JWT authentication.",0.5,0.5,FALSE,FALSE

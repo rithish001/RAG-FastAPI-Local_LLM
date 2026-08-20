@@ -1,0 +1,14 @@
+Subject: Application for Backend Engineer – Rithish Reddy Perkampally
+Dear Hiring Team at Sarvam AI,
+I am writing to express my strong interest in the Backend Engineer position at Sarvam AI. As an NIT Bhopal Computer Science graduate with 1.5 years of experience building and optimizing AI-driven workflows at HCLTech (Client: Meta), I am eager to contribute to Sarvam’s mission of building foundational AI for India.
+In my current role, I have moved beyond traditional development to focus on the reliability and performance of AI-driven user experiences. My work has involved correlating device logs and multimodal inputs to debug failures in event-driven AI processing pipelines, an experience that has refined my ability to handle the complexity and unpredictability inherent in AI systems.
+I am particularly drawn to Sarvam AI because of your focus on scalable AI infrastructure. My technical foundation is well-aligned with your requirements:
+•	AI/LLM Integration: I have built a local Retrieval-Augmented Generation (RAG) REST API using FastAPI, ChromaDB, and Ollama. This project demonstrated my ability to handle document ingestion pipelines, metadata-based filtering, and reliable request handling using Pydantic v2.
+•	Production-Grade Architecture: Beyond AI, I have developed production-grade async REST APIs using FastAPI, Async SQLAlchemy, and JWT authentication. My experience building scalable media upload pipelines integrated with CDNs reflects my commitment to writing robust, production-ready code.
+•	Technical Rigor: With a strong academic background from NIT Bhopal and a disciplined approach to problem-solving—evidenced by solving 600+ problems on coding platforms like LeetCode and CodeChef —I am prepared to tackle the challenging engineering problems at Sarvam AI.
+I am confident that my blend of experience in real-time AI workflows and my technical stack (FastAPI, Vector Embeddings, RAG Pipelines) makes me a strong fit for your backend engineering team.
+I would welcome the opportunity to discuss how my background in building event-driven AI pipelines can contribute to the growth and success of Sarvam AI. Thank you for your time and consideration.
+Best regards,
+Rithish Reddy Perkampally
+ +91-9848345349
+ [https://github.com/rithish001]
